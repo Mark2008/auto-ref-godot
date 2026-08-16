@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://coskqejdwmvb8"]
 
-[ext_resource type="Script" uid="uid://dgljadmyhdjol" path="res://demo/some_component.gd" id="1_d6po2"]
+[ext_resource type="Script" uid="uid://bkx0xvr1bjhe7" path="res://demo/some_inherit_component.gd" id="1_ytiva"]
 [ext_resource type="Script" uid="uid://didicwuj77a1t" path="res://demo/other_component.gd" id="2_ytiva"]
 
 [node name="demo" type="Node2D" unique_id=563685207]
 
-[node name="SomeComponent" type="Node" parent="." unique_id=226183428]
-script = ExtResource("1_d6po2")
-metadata/_custom_type_script = "uid://dgljadmyhdjol"
+[node name="SomeInheritComponent" type="Node" parent="." unique_id=837858794]
+script = ExtResource("1_ytiva")
+metadata/_custom_type_script = "uid://bkx0xvr1bjhe7"
 
 [node name="OtherComponent" type="Node" parent="." unique_id=805421249]
 script = ExtResource("2_ytiva")

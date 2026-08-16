@@ -1,0 +1,2 @@
+extends SomeComponent
+class_name SomeInheritComponent
