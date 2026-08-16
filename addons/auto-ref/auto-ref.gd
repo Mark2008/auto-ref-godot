@@ -31,17 +31,12 @@ func run_root(r: Node):
 	
 	walk_construct(r)
 	walk_assign(r)
-	
-	for k in pair.keys():
-		print(k)
-		print(pair[k].node)
 
 func walk_construct(n: Node):
 	var script := n.get_script() as Script
 	var state := State.Same
 	while script:
 		var type := script.get_global_name()
-		#print('a', type)
 		
 		if type in pair.keys():
 			if pair[type].state < state:
